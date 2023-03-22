@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #181818;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* background-color: black; */
+    padding: 0 50px;
+}
+
+.header{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 16px -6px;
+gap: 51px;
+
+}
+
+.header__nav{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    gap: 51px;
+}
+
+.header__figure1 img{
+    width: 45px;
+}
+
+.header__figure2 img{
+    width: 100px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.header__input{
+    width: 448px;
+    height: 30px;
+    border:1% #a3a3a3;
+    border-radius: 40px;
+}
+
+.bottonBusquedad{
+    border-radius: 0 40px 40px 0px;
+    height: 30px;
+    width: 50px;
+    background-color:#373737;
+    position: absolute;
+    left: 676px;
+}
+
+.material-symbols-outlined{
+    background-color: transparent;
+}
+
+.main__videoClick {
+    display: flex;
+    gap: 20px;
+}
+
+
+.main__iframe{
+    width: 849px;
+    height: 477px;
+    object-fit:cover;
+    border: none;
+}
+
+
+.h3__detalles{
+    color:white;
+    font-size: 24px;
+    width:80% ;
+}
+
+.figure__avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 44%;
+}
+
+.main__h4{
+    color: white;
+}
+
+.main__h5{
+    color: white;
+    font-size: 14px;
+}
+
+.div__detalles{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 10px;
+}
+.div__infoSugerido{
+    display: flex;
+    gap: 10px;
+}
+
+.videoSugeridos img{
+    width: 195px;
+    height: 109px;
+} 
+
+.main__h3Sugeridos{
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.article__h3{
+    color:white;
+    font-size: 14px;
+    
+}
+
+.article__h4{
+    color: white;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.article__h5{
+    color: white;
+    font-size: 12px;
+}
+
+@media (max-width: 600px){
+.main__videoClick{
+    flex-wrap: wrap;
+}
+
+.videoSugeridos img {
+    width: 791px;
+    height: 423px;
+}
+
+.article__h3{
+    font-size: 16px;
+}
+
+.div__infoSugerido{
+    flex-direction: column;
+}
+
+.header__input {
+    width: 325px;
+}
+
+.bottonBusquedad{
+    left: 522px;
+}
+
+}

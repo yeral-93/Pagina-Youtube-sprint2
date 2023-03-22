@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles Videos</title>
+    <link rel="stylesheet" href="../styles/detailsstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <figure class="header__figure1">
+        <img src="../asset/img/logo.png" alt="logo VideoTube"/> 
+      </figure>
+      <figure class="header__figure2">
+        <img src="../asset/img/VideoTube.png" alt="letras VideoTube" />
+      </figure>
+      <form class="search">
+       <input class="header__input" type="text" placeholder="Buscar video">
+       <button class="bottonBusquedad" type="submit"><span class="material-symbols-outlined">
+        search
+       </span></button>
+     </form >
+    </nav>
+  </header>
+    <main class="main__paginaDetalles">
+      <section class="main__videoClick">
+        <div>
+       <article class="main__videoPrincipal"></article>
+      </div>
+       <div>
+        <h3 class="main__h3Sugeridos">Videos Sugeridos</h3>
+        <article class="main__videoSugerido" > </article>
+      </div>
+       
+       <!-- <div class="main__botones">
+        <button name="all">todos</button>
+        <button name="musica">Musica</button>
+        <button name="programacion">Programacion</button>
+        <button name="decoracion">Decoracion</button>
+       </div>     -->
+      </section>
+    </main>
+    <script src="../scripts/detailsvideos.js" type="module"></script>
+</body>
+</html>

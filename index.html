@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>VideoTube</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <figure class="header__figure1">
+          <img src="./asset/img/logo.png" alt="logo VideoTube"/> 
+        </figure>
+        <figure class="header__figure2">
+          <img src="./asset/img/VideoTube.png" alt="letras VideoTube" />
+        </figure>
+        <div class="div__search">
+         <form class="search">
+          <input class="header__input" type="search" placeholder="Buscar video">
+          <button class="bottonBusquedad" type="submit"><span class="material-symbols-outlined">
+          search
+          </span></button>
+         </form >
+        </div>
+        <ul class="header__list">
+            <li><a href="./pages/formVideo.html">crear nuevo video</a></li>
+    </nav>
+    </header>
+    <body>
+    <main class="main">
+      <div class="main__botones">
+        <button name="all">todos</button>
+        <button name="musica">Musica</button>
+        <button name="programacion">Programacion</button>
+        <button name="decoracion">Decoracion</button>
+      </div>
+        <section class="main__videos">
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./scripts/script.js" type="module"></script>
+  </body>
+</html>

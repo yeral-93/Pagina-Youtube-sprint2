@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/formVideo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Formulario nuevo Video</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+          <figure class="header__figure1">
+            <img src="../asset/img/logo.png" alt="logo VideoTube"/> 
+          </figure>
+          <figure class="header__figure2">
+            <img src="../asset/img/VideoTube.png" alt="letras VideoTube" />
+          </figure>
+        <ul class="header__list">
+          <li><a class= "link__nuevoVideo" href="../index.html">crear nuevo video</a></li>
+        </nav>
+      </header>
+      <main>
+        <div class="contenido__Form">
+        <form id="formNuevoVideo">
+          <label for="video">Link Video</label>
+          <input id="video" type="text" placeholder="Ingrese el link del video">
+          <label for="image">Link Imagen</label>
+          <input id="image" type="text" placeholder="Ingrese la imagen del video">
+          <label for="title">Titulo del video</label>
+          <input id="title" type="text" placeholder="Ingrese el titulo del video">
+          <label for="autor">Autor del video</label>
+          <input id="autor" type="text" placeholder="Ingrese el autor del video">
+          <label for="avatar">Avatar del video</label>
+          <input id="avatar" type="text" placeholder="Ingrese el avatar del video">
+          <label for="vistas">Vistas del video</label>
+          <input id="vistas" type="text" placeholder="Ingrese las vistas del video">
+           <label for="duracion">Duracion del video</label>
+          <input id="duracion" type="text" placeholder="Ingrese la duracion del video">
+          <label for="fecha">Fecha del video</label>
+          <input id="fecha" type="text" placeholder="Ingrese la Fecha del video">
+          <label for="categoria">Categoria del video</label>
+          <select id="categoria" >
+            <option>Selecione una opcion</option>
+            <option value="decoracion">decoracion</option>
+            <option value="musica">musica</option>
+            <option value="programacion">programacion</option>
+          </select>
+          <button type="submit"> Crear video</button>
+        </form>
+      </div>
+      </main>
+      <script src="../scripts/formVideo.js" type="module"></script>  
+</body>
+</html>
